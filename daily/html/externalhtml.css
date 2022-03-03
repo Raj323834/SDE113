@@ -1,0 +1,12 @@
+h1{
+    height: 100px;
+    width: 150px;
+    color: red;
+    background-color: green;
+}
+h2{
+    height: 100px;
+    width: 150px;
+    color: red;
+    background-color: rgb(70, 0, 128);
+}
