@@ -1,0 +1,27 @@
+h1{
+    height: 150px;
+    width: 780px;
+    color: red;
+    background-color: green;
+    font-size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+p1{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 15px;
+    font-size: 50px;
+}
+p{height: 300px;
+    width: 780px;
+    font-size: 50px;
+    text-shadow: 10px 10px 2px black;
+
+
+
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 900px;
+    width: 1200px;
+    background-color: olivedrab;
+    margin: auto;
+}
+.header{
+    height: 200px;
+    width: 1200px;
+    background-color: aqua;
+}
+.gallary{
+    height: 400px;
+    width: 1200px;
+    background-color: blue;
+
+}
+.footer{
+    height: 300px;
+    width: 1200px;
+    background-color: brown;
+}
