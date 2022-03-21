@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function rahul(){
+            num1=document.getElementById("one").value;
+
+            if(num1>40)
+            document.getElementById("jai").innerHTML="you are passed mark = "+num1;
+            else
+            document.getElementById("jai").innerHTML="you are fail mark = "+num1;
+
+
+        }
+
+    </script>
+</head>
+<body>
+    enter number here : <input type="text" name="" id="one">
+   <input type="button" value="result" onclick="rahul()">
+   <p id="jai">result shown here</p>
+</body>
+</html>

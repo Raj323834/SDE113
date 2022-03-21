@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function jai() {
+
+            num1 =document.getElementById('one').value;
+            num2 =document.getElementById('two').value;
+
+            num1++;
+            num2++;
+            
+            document.write(" number one increasement = " +num1);
+            document.write("number two increasement = " +num2);
+
+            mult = num1*num2;
+            document.write("lets check result = " +mult);
+
+            if(num1>45)
+            document.write("paper 1 pass")
+            else
+            document.write("paper 1 fail");
+
+            if(num2>45)
+            document.getElementById("answer").innerHTML=num2;
+            else
+            document.getElementById("answer").innerHTML=num2;
+
+
+        }
+    </script>
+</head>
+<body>
+    
+    
+   enter first number : <input type="text" name="" id="one"><br>
+   enter second number : <input type="text" name="" id="two"><br>
+
+   
+
+    
+    <input type="button" value="result" onclick="jai()">
+
+</body>
+</html>
