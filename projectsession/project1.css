@@ -19,13 +19,13 @@
 }
 .media{
     height: 100px;
-    width: 880px;
+    width: 870px;
     float: left;
     background-color: pink;
 }
 .menu{
     height: 50px;
-    width: 880px;
+    width: 870px;
     float: left;
     background-color: blue;
     
@@ -35,7 +35,7 @@
     list-style: none;
     height: 40px;
     display: block;
-    width: 210px;
+    width: 200px;
     text-align: center;
     background-color:yellow;
     margin: 5px;
