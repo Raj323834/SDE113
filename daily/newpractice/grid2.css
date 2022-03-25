@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.grid-container{
+    display: grid;
+    width: 80%;
+    height: 80vh;
+    margin: 5% 10%;
+    background-color: aquamarine;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "dabba4 dabba2"
+    "dabba3 dabba1";
+}
+ .grid-item{
+        min-height: 100px;
+        background-color: red;
+        
+    }
+.dabba1{
+    grid-area: dabba1;
+}
+.dabba2{
+    grid-area: dabba2;
+}
+.dabba3{
+    grid-area: dabba3;
+}
+.dabba4{
+    grid-area: dabba4;
+}

@@ -1,0 +1,26 @@
+.grid-container{
+    width: 80%;
+    height: 80vh;
+    margin: 5% 10%;
+    background-color: hotpink;
+    display: grid;
+    gap: 10px 20px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: repeat(3 1fr);
+    
+   }
+   .grid-item{
+       min-width: 100px;
+       
+        min-height: 200px;
+       background-color: blue;
+   }
+   .grid-item-1{
+       grid-column-start: 1;
+
+       grid-column-end: 3;
+       grid-row-start: 1 ;
+       grid-row-end: 3
+       ;
+   }
+
