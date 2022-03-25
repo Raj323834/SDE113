@@ -1,0 +1,67 @@
+    *{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: large;
+    }
+    .grid-container{
+        height: 100vh;
+        display: grid;
+        width: 100%;
+        background-color: black;
+        position: relative;
+        gap: 7px;
+        grid-template-areas: 
+        "block1 block2 block2 block2"
+        "block3 block3 block6 block7"
+        "block3 block3 block6 block8"
+        "block4 block5 block6 block9";
+    }
+    .grid-item{
+        border-radius: 0.3rem;
+        box-shadow: 10px 10px 30px rgb(10, 10, 10);
+    }
+
+
+    .block-1{
+        grid-area: block1;
+        background-color: blue;
+        width: 140%;
+        float: right;
+
+    }
+    
+    .block-2{
+        grid-area: block2;
+        background-color: aqua;
+        width: 86%;
+        margin-left: 14%;
+    }
+    .block-3{
+        grid-area: block3;
+        background-color: hotpink;
+    }
+    .block-4{
+        grid-area: block4;
+        background-color: brown;
+    }
+    .block-5{
+        grid-area: block5;
+        background-color: purple
+    }
+    .block-6{
+        grid-area: block6;
+        background-color: red;
+    }
+    .block-7{
+        grid-area: block7;
+        background-color: yellow;
+    }
+    .block-8{
+        grid-area:block8;
+        background-color: green;
+    }
+    .block-9{
+        grid-area: block9;
+        background-color: rgb(219, 109, 18);
+    }
