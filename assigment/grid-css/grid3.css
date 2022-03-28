@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.grid-container{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "header header header header header "
+    "menu menu menu menu menu "
+    "hero main main main image"
+    "hero main main main image"
+    "hero main main main image"
+    "hero main main main image"
+    "extra extra extra extra extra";
+
+}
+.grid-item{
+    background-color: hotpink;
+    min-height: 50px;
+}
+.item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: menu;
+}
+.item3{
+    grid-area: hero;
+}
+.item4{
+    grid-area: main;
+}
+.item5{
+    grid-area: image;
+}
+.item6{
+    grid-area: extra;
+}
+
+
+    @media screen and (max-width:400px){
+        .grid-container{
+            grid-template-areas: 
+            "header"
+            'menu'
+            'hero'
+            'main'
+            "image"
+            "extra"
+            ;
+        
+        }}
+        
+        @media screen and (max-width:780px){
+            .grid-container{
+                grid-template-areas: 
+                "header header"
+                'menu hero'
+                'main image'
+                "extra extra"
+                ;
+            
+            }}
